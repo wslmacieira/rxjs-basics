@@ -16,7 +16,7 @@ export class AppComponent implements AfterViewInit {
     { title: 'title3', description: 'description3'},
   ];
 
-  postsArrayObservable$ = from(this.postsArray);
+  // postsArrayObservable$ = from(this.postsArray);
 
   // promise = new Promise((resolve, reject) => {
   //   setTimeout(() => {
@@ -37,15 +37,15 @@ export class AppComponent implements AfterViewInit {
     //   error: error => console.log(error),
     //   complete: () => console.log("complete done! promise done")
     // });
-    console.log('before function');
-    console.log(functionObs());
-    console.log('after function');
+    // console.log('before function');
+    // console.log(functionObs());
+    // console.log('after function');
 
-    console.log('before observable');
-    funcObservable.subscribe((data) => {
-      console.log(data);
-    });
-    console.log('after observable');
+    // console.log('before observable');
+    // funcObservable.subscribe((data) => {
+    //   console.log(data);
+    // });
+    // console.log('after observable');
   }
 
   ngAfterViewInit(): void {
