@@ -9,6 +9,7 @@ import { CancellingObservableComponent } from './components/cancelling-observabl
 import { OperatorsBasicsComponent } from './components/operators-basics/operators-basics.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
+import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OperatorsComponent } from './pages/operators/operators.component';
     CancellingObservableComponent,
     OperatorsBasicsComponent,
     BufferOperatorComponent,
-    OperatorsComponent
+    OperatorsComponent,
+    BufferCountOperatorComponent
   ],
   imports: [
     BrowserModule,
