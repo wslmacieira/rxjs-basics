@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 import { BufferTimerOperatorComponent } from './pages/buffer-timer-operator/buffer-timer-operator.component';
+import { BufferToggleOperatorComponent } from './pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
       { path: 'buffer', component: BufferOperatorComponent },
       { path: 'buffercount', component: BufferCountOperatorComponent },
       { path: 'buffertimer', component: BufferTimerOperatorComponent },
+      { path: 'buffertoggle', component: BufferToggleOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
