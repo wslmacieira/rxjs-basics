@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
+import { BufferTimerOperatorComponent } from './pages/buffer-timer-operator/buffer-timer-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: 'buffer', component: BufferOperatorComponent },
       { path: 'buffercount', component: BufferCountOperatorComponent },
+      { path: 'buffertimer', component: BufferTimerOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
