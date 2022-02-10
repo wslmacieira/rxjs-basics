@@ -20,6 +20,7 @@ import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-
 import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
 import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-until-operator.component';
 import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-while-operator.component';
+import { ThrottleOperatorComponent } from './pages/throttle-operator/throttle-operator.component';
 
 const routes: Routes = [
   {
@@ -51,6 +52,7 @@ const routes: Routes = [
       { path: 'filter', component: FilterOperatorComponent },
       { path: 'sample', component: SampleOperatorComponent },
       { path: 'audit', component: AuditOperatorComponent },
+      { path: 'throttle', component: ThrottleOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },

@@ -12,7 +12,7 @@ export class AuditOperatorComponent implements OnInit, OnDestroy {
   constructor() {}
 
   ngOnInit(): void {
-    interval(1000)
+    this.auditSubscription = interval(1000)
       .pipe(audit(() => interval(2000)))
       .subscribe((data) => console.log(data));
   }
