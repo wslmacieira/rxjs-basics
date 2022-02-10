@@ -23,6 +23,7 @@ import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-unt
 import { SkipWhileOperatorComponent } from './pages/skip-while-operator/skip-while-operator.component';
 import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-operator.component';
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
+import { DistinctUntilKeyChangedOperatorComponent } from './pages/distinct-until-key-changed-operator/distinct-until-key-changed-operator.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-ch
     SkipUntilOperatorComponent,
     SkipWhileOperatorComponent,
     DistinctOperatorComponent,
-    DistinctUntilChangedOperatorComponent
+    DistinctUntilChangedOperatorComponent,
+    DistinctUntilKeyChangedOperatorComponent
   ],
   imports: [
     BrowserModule,
