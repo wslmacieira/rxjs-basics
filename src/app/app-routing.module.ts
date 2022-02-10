@@ -9,6 +9,7 @@ import { OperatorsComponent } from './pages/operators/operators.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
+import { SkipWhileOperatorComponent } from './pages/skip-while-operator/skip-while-operator.component';
 import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-operator.component';
 import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
 import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-until-operator.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
       { path: 'skip', component: SkipOperatorComponent },
       { path: 'skiplast', component: SkipLastOperatorComponent },
       { path: 'skipuntil', component: SkipUntilOperatorComponent },
+      { path: 'skipwhile', component: SkipWhileOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
