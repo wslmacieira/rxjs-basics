@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuditOperatorComponent } from './pages/audit-operator/audit-operator.component';
 import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 import { BufferTimerOperatorComponent } from './pages/buffer-timer-operator/buffer-timer-operator.component';
@@ -49,6 +50,7 @@ const routes: Routes = [
       },
       { path: 'filter', component: FilterOperatorComponent },
       { path: 'sample', component: SampleOperatorComponent },
+      { path: 'audit', component: AuditOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },

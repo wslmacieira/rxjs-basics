@@ -8,16 +8,16 @@ import { sample } from 'rxjs/operators';
   styleUrls: ['./sample-operator.component.css'],
 })
 export class SampleOperatorComponent implements OnInit, OnDestroy {
-  sampleSubscribe: Subscription;
+  sampleSubscription: Subscription;
   constructor() {}
 
   ngOnInit(): void {
-    this.sampleSubscribe = interval(500)
+    this.sampleSubscription = interval(500)
       .pipe(sample(interval(2000)))
       .subscribe((data) => console.log(data));
   }
 
   ngOnDestroy(): void {
-    this.sampleSubscribe.unsubscribe();
+    this.sampleSubscription.unsubscribe();
   }
 }
