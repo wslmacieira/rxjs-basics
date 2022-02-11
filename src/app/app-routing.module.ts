@@ -13,6 +13,7 @@ import { DistinctUntilKeyChangedOperatorComponent } from './pages/distinct-until
 import { ElementAtOperatorComponent } from './pages/element-at-operator/element-at-operator.component';
 import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
 import { FirstOperatorComponent } from './pages/first-operator/first-operator.component';
+import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
@@ -61,6 +62,7 @@ const routes: Routes = [
       { path: 'last', component: LastOperatorComponent },
       { path: 'debounce', component: DebounceOperatorComponent },
       { path: 'elementat', component: ElementAtOperatorComponent },
+      { path: 'ignoreelements', component: IgnoreElementsOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
