@@ -6,6 +6,7 @@ import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator
 import { BufferTimerOperatorComponent } from './pages/buffer-timer-operator/buffer-timer-operator.component';
 import { BufferToggleOperatorComponent } from './pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer-when-operator.component';
+import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-operator.component';
 import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-operator.component';
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
 import { DistinctUntilKeyChangedOperatorComponent } from './pages/distinct-until-key-changed-operator/distinct-until-key-changed-operator.component';
@@ -57,6 +58,7 @@ const routes: Routes = [
       { path: 'throttle', component: ThrottleOperatorComponent },
       { path: 'first', component: FirstOperatorComponent },
       { path: 'last', component: LastOperatorComponent },
+      { path: 'debounce', component: DebounceOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
