@@ -10,6 +10,7 @@ import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-op
 import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-operator.component';
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
 import { DistinctUntilKeyChangedOperatorComponent } from './pages/distinct-until-key-changed-operator/distinct-until-key-changed-operator.component';
+import { ElementAtOperatorComponent } from './pages/element-at-operator/element-at-operator.component';
 import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
 import { FirstOperatorComponent } from './pages/first-operator/first-operator.component';
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
@@ -59,6 +60,7 @@ const routes: Routes = [
       { path: 'first', component: FirstOperatorComponent },
       { path: 'last', component: LastOperatorComponent },
       { path: 'debounce', component: DebounceOperatorComponent },
+      { path: 'elementat', component: ElementAtOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
