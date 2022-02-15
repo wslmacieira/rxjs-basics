@@ -17,6 +17,7 @@ import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operato
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
+import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
@@ -63,6 +64,7 @@ const routes: Routes = [
       { path: 'debounce', component: DebounceOperatorComponent },
       { path: 'elementat', component: ElementAtOperatorComponent },
       { path: 'ignoreelements', component: IgnoreElementsOperatorComponent },
+      { path: 'single', component: SingleOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
