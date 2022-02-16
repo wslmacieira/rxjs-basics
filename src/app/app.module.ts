@@ -35,6 +35,7 @@ import { ElementAtOperatorComponent } from './pages/element-at-operator/element-
 import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
 import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
 import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
+import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { MapOperatorComponent } from './pages/map-operator/map-operator.componen
     ElementAtOperatorComponent,
     IgnoreElementsOperatorComponent,
     SingleOperatorComponent,
-    MapOperatorComponent
+    MapOperatorComponent,
+    MapToOperatorComponent
   ],
   imports: [
     BrowserModule,

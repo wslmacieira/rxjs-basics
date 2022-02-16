@@ -16,6 +16,7 @@ import { FirstOperatorComponent } from './pages/first-operator/first-operator.co
 import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
 import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
+import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
@@ -67,6 +68,7 @@ const routes: Routes = [
       { path: 'ignoreelements', component: IgnoreElementsOperatorComponent },
       { path: 'single', component: SingleOperatorComponent },
       { path: 'map', component: MapOperatorComponent },
+      { path: 'mapto', component: MapToOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
