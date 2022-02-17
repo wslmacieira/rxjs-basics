@@ -18,6 +18,7 @@ import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operato
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
 import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
+import { MergeMapOperatorComponent } from './pages/merge-map-operator/merge-map-operator.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
@@ -71,6 +72,7 @@ const routes: Routes = [
       { path: 'map', component: MapOperatorComponent },
       { path: 'mapto', component: MapToOperatorComponent },
       { path: 'ajax', component: AjaxOperatorComponent },
+      { path: 'mergemap', component: MergeMapOperatorComponent },
     ],
   },
   { path: '', redirectTo: 'operators', pathMatch: 'full' },
